@@ -1,0 +1,32 @@
+[
+    {
+        "name": "András",
+        "year": "1977",
+        "sex": "male",
+        "location": "Budapest"
+    },
+    {
+        "name": "Béla",
+        "year": "1997",
+        "sex": "male",
+        "location": "Debrecen"
+    },
+    {
+        "name": "Irén",
+        "year": "1967",
+        "sex": "female",
+        "location": "Pécs"
+    },
+    {
+        "name": "Géza",
+        "year": "1956",
+        "sex": "male",
+        "location": "Sopron"
+    },
+    {
+        "name": "Judit",
+        "year": "1987",
+        "sex": "female",
+        "location": "Győr"
+    }
+]

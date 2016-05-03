@@ -1,0 +1,23 @@
+{
+    "name": "myapp001",
+    "version": "0.0.1",
+    "description": "Első teszt alkalmazás",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.13.4",
+        "grunt": "",
+        "grunt-cli": "",
+        "grunt-contrib-clean": "",
+        "grunt-contrib-copy": "",
+        "grunt-contrib-jshint": "",
+        "grunt-contrib-uglify": "",
+        "grunt-contrib-watch": "",
+        "mime-types": "~2.1.6",
+        "negotiator": "0.5.3"
+    }
+}
