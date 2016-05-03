@@ -30,7 +30,7 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: 'src/',
-                        src: ['**/*.html'],
+                        src: ['**/*.html', 'img/*'],
                         dest: 'build/',
                         filter: 'isFile'
                     }
@@ -56,8 +56,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
-
 
     grunt.registerTask('default', ['watch']);
     grunt.registerTask('dev', ['clean', 'jshint', 'copy', 'uglify']);
