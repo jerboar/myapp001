@@ -15,6 +15,7 @@
     "dependencies": {
         "express": "^4.13.4",
         "pug":"",
+        "pug-load":"",
         "grunt": "",
         "grunt-cli": "",
         "grunt-contrib-clean": "",
