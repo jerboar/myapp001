@@ -24,6 +24,7 @@
         "grunt-contrib-uglify": "",
         "grunt-contrib-watch": "",
         "mime-types": "~2.1.6",
+        "mongoose":"",
         "negotiator": "0.5.3",
         "grunt-git":"",
         "grunt-contrib-less":"" 
