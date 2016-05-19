@@ -6,11 +6,9 @@ var db,
 function setConnection(mongodb) {
     db = mongodb;
     setModell();
-
 }
 
 function setModell() {
-
     Users = db.model('users', {
         name: String,
         email: String,
@@ -21,6 +19,11 @@ function setModell() {
             product: String
         }
     }, 'users');
+}
+// új dokumentum beszúrása a kollekcióba
+function creat(document) {
+    var user = new Users(document);
+    user.save();
 }
 // feltételnek megfelelő rekordok kiolvasása
 function read(where, callBack) {
