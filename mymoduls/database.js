@@ -1,1 +1,0 @@
-// adatbázis függvények
