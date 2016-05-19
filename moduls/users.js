@@ -39,14 +39,15 @@ function read(where, callBack) {
   Users.find(where, function (err, data) {
     if (err) {
       console.error("Hiba a lekérésben");
-      callBack({});
-    } else {
+      data = {};
+    }
+    if (callBack) {
       callBack(data);
     }
   });
 }
 //Publikus elemek
-module.export = {
+module.exports = {
   setConnection: setConnection,
   read: read,
   create: create

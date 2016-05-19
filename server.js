@@ -6,9 +6,8 @@ var app = express();
 var port = 3000;
 
 mongoose.connect('mongodb://localhost/shero');
-
 user.setConnection(mongoose);
-user.create({
+/*user.create({
   'name': 'Jonh Doe',
   'email': 'jd@gmail.com',
   'phone': '555-555',
@@ -20,7 +19,12 @@ user.create({
   }
 }, function (saved) {
   console.log(saved);
-});
+});*/
+user.read({
+  'role': 5
+}, function (data) {
+  console.log(data);
+})
 app.use(express.static("build"));
 app.get('/', function (req, res) {
   fs.readFile('./build/index.html', 'utf8', function (err, data) {
